@@ -1,0 +1,5 @@
+app/code/local/Luckyduck/Angularlist app/code/local/Luckyduck/Angularlist
+app/design/frontend/base/default/layout/luckyduck_angularlist.xml app/design/frontend/base/default/layout/luckyduck_angularlist.xml
+app/design/frontend/base/default/template/angularlist app/design/frontend/base/default/template/angularlist
+app/etc/modules/Luckyduck_Angularlist.xml app/etc/modules/Luckyduck_Angularlist.xml
+js/angularlist js/angularlist

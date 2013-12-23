@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    var angularlistApp = angular.module('angularlistApp', []);
+    angularlistApp.controller('ProductListCtrl', function($scope, $http) {
+        $http.get('<?php echo Mage::getBaseUrl()?>api/rest/products').success(function(data) {
+            $scope.products = data;
+        });
+    });
+</script>
+
+<div ng-app="angularlistApp">
+    <div ng-controller="ProductListCtrl">
+        <ul>
+            <li ng-repeat="product in products">
+                {{product.name}}
+                <p>{{product.description}}</p>
+            </li>
+        </ul>
+    </div>
+</div>

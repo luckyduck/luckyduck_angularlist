@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Luckyduck_Angularlist>
+            <version>0.1.0</version>
+        </Luckyduck_Angularlist>
+    </modules>
+
+    <global>
+        <blocks>
+            <angularlist>
+                <class>Luckyduck_Angularlist_Block</class>
+            </angularlist>
+        </blocks>
+    </global>
+
+    <frontend>
+        <routers>
+            <angularlist>
+                <use>standard</use>
+                <args>
+                    <module>Luckyduck_Angularlist</module>
+                    <frontName>angularlist</frontName>
+                </args>
+            </angularlist>
+        </routers>
+
+        <layout>
+            <updates>
+                <luckyduck_angularlist>
+                    <file>luckyduck_angularlist.xml</file>
+                </luckyduck_angularlist>
+            </updates>
+        </layout>
+    </frontend>
+</config>
