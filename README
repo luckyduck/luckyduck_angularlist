@@ -1,0 +1,4 @@
+A simple example that shows how to use AngularJS in combination with Magento. This particular extension fetches
+products from the REST API and generates a simple list.
+
+Explaining blog post: http://the-luckyduck.de/2013/12/mit-angularjs-daten-aus-der-magento-api-darstellen/
